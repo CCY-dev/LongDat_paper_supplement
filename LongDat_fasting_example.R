@@ -1,7 +1,7 @@
 library(LongDat)
 
 ### Read in the input data
-fasting <- read.table("/Users/Jessica/Documents/Lab/CORONA/corona.motu2matrix.rarefied.r.Species.r.master.r.dose_replaced.r",
+fasting <- read.table("Fasting_species.txt",
                       sep = "\t", header = T)
 
 ### Run LongDat
