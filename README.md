@@ -11,6 +11,12 @@ This repository holds the supplementary materials for the LongDat paper.
 | LongDat_analyze_simulated_data.R                         | Run LongDat on the data created in "MicrobiomeDASim_generate_simulated_data.R"                   |
 | LongDat_analyze_simulated_data_with_confounder.R         | Run LongDat on the data created in "MicrobiomeDASim_generate_simulated_data_add_confounder.R"    |
 | LongDat_fasting_example.R                                | Run LongDat on "Fasting_species.txt"                                                             |
-| Fasting_species.txt                                      | The fasting gut microbial abundance table at species level                                       |
+| Fasting_species.txt                                      | The fasting gut microbial abundance table at species level. Case means time points in this study |
 | LongDat_fasting_result_table.txt                         | The result table from running LongDat on "Fasting_species.txt"                                   |
 | LongDat_fasting_confounder_table.txt                     | The confounder table from running LongDat on "Fasting_species.txt"                               |
+| Maaslin2_analyze_simulated_data.R                        | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data.R"                  |
+| Maaslin2_analyze_simulated_data_with_confounder_testing_Confounder.R | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data_add_confounder.R" and testing the simulated_confounder as fixed effect.|
+| Maaslin2_analyze_simulated_data_with_confounder_testing_TimeAndConfounder.R | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data_add_confounder.R" and testing both simulated_confounder and time as fixed effect.|
+|Maaslin2_fasting.R                                         | Run Maaslin2 on "Fasting_species.txt"                                                           |
+|Masslin2_NEGBIN_fasting_species_no_confounder_case_full_result.txt | The result from running Maaslin2_fasting.R. Here no potential confounders were included in the run. Case means time points. |
+|Masslin2_NEGBIN_fasting_species_with_confounder_case_full_result.txt |  The result from running Maaslin2_fasting.R. Here potential confounders were included in the run. Case means time points. |
