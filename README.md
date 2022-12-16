@@ -14,7 +14,6 @@ This repository holds the supplementary materials for the LongDat paper.
 | Fasting_species.txt                                      | The fasting gut microbial abundance table at species level. Case means time points in this study |
 |immunome.master.r.dose.r                                  |The fasting immunome data. Case means time points in this study|
 |LongDat_fasting_immunome_for_paper.R|                      Run LongDat on the immunome data|
-
 | LongDat_fasting_result_table.txt                         | The result table from running LongDat on "Fasting_species.txt"                                   |
 | LongDat_fasting_covariate_table.txt                     | The covariate table from running LongDat on "Fasting_species.txt"                               |
 | Fasting_immunome_measurement_Longdat_disc_result_table.txt| The result table from running LongDat on the non-percentage data in"immunome.master.r.dose.r"   |
