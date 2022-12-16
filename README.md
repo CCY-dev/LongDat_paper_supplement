@@ -17,6 +17,10 @@ This repository holds the supplementary materials for the LongDat paper.
 
 | LongDat_fasting_result_table.txt                         | The result table from running LongDat on "Fasting_species.txt"                                   |
 | LongDat_fasting_covariate_table.txt                     | The covariate table from running LongDat on "Fasting_species.txt"                               |
+| Fasting_immunome_measurement_Longdat_disc_result_table.txt| The result table from running LongDat on the non-percentage data in"immunome.master.r.dose.r"   |
+| Fasting_immunome_measurement_Longdat_disc_covariates.txt| The covariate table from running LongDat on the non-percentage data in"immunome.master.r.dose.r"   |
+| Fasting_immunome_percentage_Longdat_disc_result_table.txt| The result table from running LongDat on the percentage data in"immunome.master.r.dose.r"   |
+| Fasting_immunome_percentage_Longdat_disc_covariates.txt| The covariate table from running LongDat on the percentage data in"immunome.master.r.dose.r"   |
 | Maaslin2_analyze_simulated_data.R                        | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data.R"                  |
 | Maaslin2_analyze_simulated_data_with_covariate_testing_Covariate.R | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data_add_covariate.R" and testing the simulated_confounder as fixed effect.|
 | Maaslin2_analyze_simulated_data_with_covariate_testing_TimeAndCovariate.R | Run Maaslin2 on the data created in "MicrobiomeDASim_generate_simulated_data_add_covariate.R" and testing both simulated_confounder and time as fixed effect.|
@@ -27,4 +31,8 @@ This repository holds the supplementary materials for the LongDat paper.
 |Longdat_many_random_covariates_Rscript.R| Run LongDat on multiple covariate simulated data|
 |Shuffle_time_run_longdat_Rscript.R| Run LongDat on negative control data with the time shuffled against other variables|
 |Maaslin2_TSS_Rscript.R| Run Maaslin2 by using TSS and linear model mode on simulated data|
+|lgpr_Rscript.R| Run lgpr on multiple covariate simulated data|
+|Ancom_Rscript.R| Run ANCOM on multiple covariate simulated data|
+|ZIBR_Rscript.R| Run ZIBR on multiple covariate simulated data|
+
 
