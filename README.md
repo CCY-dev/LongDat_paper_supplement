@@ -33,5 +33,19 @@ This repository holds the supplementary materials for the LongDat paper.
 |lgpr_Rscript.R| Run lgpr on multiple covariate simulated data|
 |Ancom_Rscript.R| Run ANCOM on multiple covariate simulated data|
 |ZIBR_Rscript.R| Run ZIBR on multiple covariate simulated data|
+|Fasting_genus_raw_master.txt| The microbial abundance data at genus level in the fasting study|
+|Fasting_genus_rarefied_master.txt| The rarefied microbial abundance data at genus level in the fasting study|
+|Fasting_genus_tss_master.txt| The TSS-normalized microbial abundance data at genus level in the fasting study|
+|Fasting_genus_clr_master.txt| The CLR-transformed microbial abundance data at genus level in the fasting study|
+|Fasting_genus_gmpr_master.txt| The GMPR-normalized microbial abundance data at genus level in the fasting study|
+|Fasting_genus_tmm_master.txt| The TMM-normalized microbial abundance data at genus level in the fasting study|
+|Fasting_genus_css_master.txt| The CSS-normalized microbial abundance data at genus level in the fasting study|
+|Generate_shuffled_fasting_data.R| Shuffles the fasting genus data for suppl. fig. 16|
+|SpasreDOSSA2_longitudinal_raw_simulation.R|This script generates the longitudinal simulated data using SparseDOSSA2|
+|SpasreDOSSA2_rarefy_and_normalize.R| Rarefy/normalize the simulated data of SparseDOSSA2|
+|SpasreDOSSA2_add_covariate.R| Adds covariates to the simulated data of SparseDOSSA2|
+|Generate_negative_control_data.R|The R script used to generate negative control data for suppl. fig. 9|
+
+
 
 
